@@ -1,0 +1,1 @@
+{"name":"pulsewatch","private":true,"scripts":{"dev":"concurrently -k \"npm run dev -w server\" \"npm run dev -w client\"","build":"npm run build -w client && npm run build -w server","start":"npm run start -w server"},"workspaces":["server","client"],"devDependencies":{"concurrently":"^9.1.2"}}
